@@ -34,11 +34,11 @@ struct ContentView: View {
                             selectedLetters[index] = letter
                         }
                 }
-                
             }
         }
     }
 }
+
 struct CustomLetterBox: View {
     let color : Color
     let text : String
@@ -52,6 +52,7 @@ struct CustomLetterBox: View {
         .frame(width: 120, height: 120)
     }
 }
+
 #Preview {
     ContentView()
 }
